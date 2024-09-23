@@ -9,7 +9,9 @@ Add a Django-Compositions HTTP header to a Django app
 
 ## Installation
 
-Configure [DJP](https://github.com/simonw/djp). Then install this plugin in the same environment as your Django application.
+First [install and configure DJP](https://djp.readthedocs.io/en/latest/installing_plugins.html).
+
+Then install this plugin in the same environment as your Django application.
 ```bash
 pip install django-plugin-django-header
 ```
