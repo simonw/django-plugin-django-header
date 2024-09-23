@@ -9,13 +9,13 @@ Add a Django-Compositions HTTP header to a Django app
 
 ## Installation
 
-Configure [djp](https://github.com/simonw/djp). Then install this plugin in the same environment as your Django application.
+Configure [DJP](https://github.com/simonw/djp). Then install this plugin in the same environment as your Django application.
 ```bash
 pip install django-plugin-django-header
 ```
 ## Usage
 
-Once installed, every response from the application will include a `Django-Composition` HTTP header. For example:
+Once installed, every response from the application will include a `Django-Composition` HTTP header listing [a composition by Django Reinhardt](https://en.wikipedia.org/wiki/List_of_compositions_by_Django_Reinhardt). For example:
 
 ```bash
 curl -I http://localhost:8000/
